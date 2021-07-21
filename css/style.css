@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
 }
 
 .imgIM {
@@ -126,6 +125,17 @@ section {
 .heading.white {
   color: #fff;
 }
+.heading.black {
+  color: #000000;
+  font: large;
+  color: #3183EE;
+}
+.heading.more {
+  font-size: 15px;
+  color: #000000;
+}
+
+
 .conetntBx {
   padding-right: 30px;
 }
@@ -427,6 +437,11 @@ img {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
   color: white;
+  text-decoration: none;
+}
+.column a{
+  text-decoration: none;
+  color: white;
 }
 #myprojects{
   overflow-y: hidden;
@@ -444,8 +459,10 @@ img {
   }
 }
 
-.submitbtn :hover{
-  background-color: green;
+.submitbtn {
+  height: 30px;
+  color: green;
+  background-color: grey;
 }
 
 /* achievement carousel */
@@ -521,10 +538,6 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-/*.active, .dot:hover {
-  background-color: #717171;
-}
-8/
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -555,4 +568,15 @@ img {vertical-align: middle;}
 }
 .achievements{
   background-image: url(../images/polygonal-abstract-red-dark-background-eo-3840x2160.jpg);
+}
+
+.footer{
+  align-items: center;
+  color: white;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+
+#btnn :hover{
+  background-color: black;
 }
